@@ -28,6 +28,7 @@ $ docker inspect 37d82637c5aa | grep IPAddress
 
 To make sure the bloodhound container responds (make sure the IP was replaced by the one you've got above, as well as that you've got curl on the machine running docker):
 
+```
 $ curl 172.17.0.2:8000
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -45,4 +46,5 @@ $ curl 172.17.0.2:8000
 </ul>
 </body>
 
---
+```
+
